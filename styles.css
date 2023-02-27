@@ -1,0 +1,153 @@
+body{
+  font-family: "Montserrat";
+}
+p{
+  color: #8f8f8f;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Montserrat";
+}
+h1{
+  font-size: 8em;
+  line-height: 3px;
+}
+h2{
+  line-height: 1.5;
+  font-size: 3rem;
+}
+h3{
+  font-size:0.8rem;
+}
+#title{
+  background-color: #ff4c68;
+  color:#fff;
+}
+.container-fluid{
+  padding: 3% 75%;
+}
+/* Navbar  */
+.navbar{
+  padding-bottom: 4.5rem;
+
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3em;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+  font-size: 1.2rem;
+}
+.nav-link{
+  font-family:"Montserrat-light"
+}
+/* Download buttons */
+.download-btn{
+  margin:5% 3% 5% 0;
+}
+.Title-img{
+  width:15%;
+  transform: rotate(25deg);
+  position:absolute;
+  padding-bottom:5px;
+}
+/* Features  */
+#features{
+  padding:7% 15%;
+  background-color: #fff;
+  position: relative;
+
+  z-index: 1;
+}
+.features-box{
+  text-align: center;
+  padding:5%;
+
+}
+
+.icons{
+  color:#ef8172;
+  padding-bottom:1rem;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+/* Testimonials Section */
+#testimonials{
+  color:#fff;
+  background-color:#ff4c68;
+  text-align: center;
+}
+.Testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin:10px;
+}
+/* Press Section */
+#press{
+  background-color: #ff4c68;
+  text-align: center;
+}
+.press-image{
+  width:15%;
+  padding:20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* Pricing Section */
+#pricing{
+  text-align: center;
+  padding:100px;
+}
+.pricing-column {
+  margim:2% 3%;
+}
+/* Media Query Breakpoints */
+@media (max-width:1000px){
+  .Title-img{
+    position:static;
+    width:40%;
+    transform: rotate(0);
+  }
+  #title{
+    text-align: center;
+  }
+}
+
+/* CTA */
+#cta{
+  text-align: center;
+  padding: 10%;
+
+  background-color: #ff4c68;
+  color: #fff;
+
+}
+.cta-text{
+  padding:2% ;
+  font-family:"Montserrat";
+
+}
+.cta-btn{
+  margin: 2% 2%;
+
+}
+/* Footer */
+#footer{
+  text-align: center;
+  background-color: #fff;
+}
+.social-btns{
+  padding-top: 5%;
+  border: none;
+  background-color: #fff;
+
+
+}
+.footer-text{
+  padding-bottom: 2.5%;
+}
